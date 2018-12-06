@@ -1,1 +1,1 @@
-select count(department_id) from employees where department_id = 20 or department_id = 50;
+select last_name || ' earns ' || salary as "Monthly Salary" from employees;

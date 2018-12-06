@@ -1,1 +1,1 @@
-select last_name, salary from employees where salary > 12000 order by salary desc;
+select last_name "姓", first_name "名" from employees;

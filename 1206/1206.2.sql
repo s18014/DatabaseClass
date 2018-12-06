@@ -1,1 +1,1 @@
-select last_name, department_id from employees where employee_id = 176;
+select last_name, salary from employees where salary >= 10000;
