@@ -1,1 +1,3 @@
-select last_name from employees where salary > 12000 order by salary desc;
+select last_name, first_name
+from employees
+where last_name = 'King';

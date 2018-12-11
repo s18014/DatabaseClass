@@ -1,1 +1,3 @@
-select count(salary) from employees where salary >= 5000 and salary <= 12000;
+select last_name, hire_date
+from employees
+where hire_date > '08-01-01';
