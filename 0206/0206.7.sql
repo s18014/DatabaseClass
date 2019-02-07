@@ -1,7 +1,8 @@
-select department_id, department_name
+select department_id, department_name, count(employee_id)
 from departments
 left outer join employees
 using (department_id)
-where employee_id is null
+group by department_id, department_name
+having count(employee_id) = 0
 order by department_id
 /
